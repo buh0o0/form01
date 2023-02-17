@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="01.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="a">
+    <h1>FORMULARIO</h1>
+    <div>
+        <form autocomplete="on">
+            <label for="form">Introduce tu nombre:</label> <br>
+            <input type="text" id ="name" name="name" required pattern="[a-zA-Z]+"minlength="2" maxlength="30"> 
+        </div>
+            <div>
+                <label for="email">Introduce tu correo</label> <br>   
+                <input type="email" name="email" required>
+            </div>
+            <div>
+                <label>¿A que curso se va inscribir?</label>
+                    <br><input type="checkbox" id="paint" name="paint">
+                        <label for="paint">Pintura </label>
+                    <input type="checkbox" id="karate" name="karate">
+                        <label for="karate">Karate</label>
+                    <input type="checkbox" id="swimming" name="swimming">
+                        <label for="swimming">Natacion</label>
+            </div>
+            <div>
+                <label for="city">Estado civil</label> <br>
+                    <select name="city">
+                        <option selected value="0"> Elige una opcion </option>
+                        <option value="1">soltero</option>
+                        <option value="2">casado</option>
+                        <option value="2">viudo</option>
+                    </select>
+            </div>
+            <div>
+                <label for="form"> Numero de contacto </label> <br>
+                <input type="text" id ="phone" name="phone" required pattern="[0-9]+"minlength="6" maxlength="15">
+            </div>
+            <input type="reset" value="Restablecer">
+            <input class="b" type="submit" value="Enviar">
+        </form>
+    </div>  
+</body>
+</html>

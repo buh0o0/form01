@@ -1,0 +1,6 @@
+body {background-color: #b1ddf4;}
+div{background-color: #eddddd; text-align: center; margin: 1%; }
+.a{background-color: #eab5b5; text-align: center; margin-left: 30%;margin-right: 30%; }
+.b{background-color: #5392eb; border: 4px solid #2b59ef; border-style: dotted; }
+h1{text-align: center;}
+label{text-transform:uppercase ; font-style: italic;}
